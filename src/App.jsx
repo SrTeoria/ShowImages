@@ -1,7 +1,7 @@
 import { Login } from './components/login/login'
 import { Navbar } from './components/navbar/navbar'
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import { SignUp } from './components/signup/signUp'
 import { UserProfile } from './components/user/user'
 import { MainPage } from './components/mainPage/mainPage'

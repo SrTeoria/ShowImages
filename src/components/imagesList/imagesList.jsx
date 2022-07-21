@@ -9,7 +9,7 @@ export const ImagesList = () => {
   }, [])
 
   const loadImages = useCallback(() => {
-    fetch(`${import.meta.env.VITE_SERVER_URL}/publications`)
+    fetch(`${import.meta.env.VITE_SERVER_URL}publications`)
       .then(response => response.json())
       .then(setImages)
   }, [])

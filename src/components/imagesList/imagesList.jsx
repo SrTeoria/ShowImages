@@ -15,7 +15,7 @@ export const ImagesList = () => {
   }, [])
 
   const deleteImage = useCallback((id) => {
-    fetch(`${import.meta.env.VITE_SERVER_URL}/publications`, {
+    fetch(`${import.meta.env.VITE_SERVER_URL}publications`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'

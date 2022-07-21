@@ -1,0 +1,9 @@
+.mainPage {
+  background-image: url('./unicordoba1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  padding-top: 5%;
+  display: grid;
+  justify-items: center;
+}
